@@ -1,0 +1,70 @@
+/*!
+ * Start Bootstrap - Simple Sidebar (https://startbootstrap.com/templates/simple-sidebar)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-simple-sidebar/blob/master/LICENSE)
+ */
+@import url('css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Jost:wght@800&family=Roboto+Mono&display=swap');
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    list-style: none;
+}
+/*Navbar*/
+.navbar{
+    transition: all 0.3s;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%);
+    background: #ffffff;
+    padding: 0 40px;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand span{
+    font-family: 'Jost', sans-serif;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: #292b67;
+}
+.navbar-brand img{
+    width: 60px;
+    margin-right: 20px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.navbar-nav .nav-link{
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    margin: 0px 20px;
+    color: #000 !important;
+}
+/*Footer-Section*/
+.footer-section{
+    padding: 40px 80px;
+    background: #ffdfb2;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .navbar-brand img{
+        width: 25px;   
+    }
+    .navbar-brand span {
+        font-size: 25px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+}

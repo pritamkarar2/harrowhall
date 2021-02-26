@@ -1,0 +1,98 @@
+@import url('css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Jost:wght@600&family=Roboto+Mono&display=swap');
+
+h1{
+	color: #292b67;
+	text-align: center;
+	font-family: 'Hind', sans-serif;	
+}
+h5{
+    font-family: 'Hind', sans-serif;
+}
+p{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	text-align: justify;
+}
+.welcome-section,
+.our-difference-section,
+.next-step-section,
+.sample {
+	padding: 20px 80px;
+}
+.btn-round{
+	background: #292b67;
+	color: #fff;
+	padding: 15px 25px;
+	border-radius: 50rem;
+	border: none;
+}
+/*Welcome-Section*/
+.welcome-section .img1{
+	display: flex;
+	align-items: center;
+}
+.welcome-section img{
+	width: 400px;
+}
+/*Next-Step*/
+.next-step-section .img3{
+	display: flex;
+	align-items: center;
+}
+.next-step-section img{
+	width: 450px;
+}
+/*Enquiry*/
+.enquiry .form-control{
+	padding: 20px;
+	border: 3px solid #292b67;
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	h1{
+		font-size: 25px;
+	}
+	p{
+		font-size: 16px;
+	}
+	.welcome-section img{
+		width: 100%;
+	}
+	.next-step-section img{
+		width: 100%;
+	}
+	.our-difference-section img{
+		margin-top: 20px;
+		width: 100%;
+	}
+	.sample img{
+		width: 100%;
+	}
+	.btn-round {
+	    padding: 10px 10px;
+	    font-size: 12px;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.welcome-section .img1{
+		justify-content: center;
+	}
+	.next-step-section .img3{
+		justify-content: center;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.welcome-section .img1{
+		justify-content: center;
+	}
+	.next-step-section .img3{
+		justify-content: center;
+	}
+	
+}
